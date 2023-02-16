@@ -43,10 +43,6 @@ html {
   text-decoration: none;
 }
 
-body {
-  background: var(--main-white);
-}
-
 .header-wrapper {
   margin: 0 auto;
   width: 1450px;
