@@ -1,17 +1,17 @@
 <template>
-  <Formulario />
+  <div id="app">
+    <Formulario />
+  </div>
 </template>
 
 <script>
-// import Header from "./components/Header.vue";
-// import Banner from "./components/Banner.vue";
-// import Objetivos from "./components/Objetivos.vue";
-import Formulario from "./components/Form/Formulario.vue";
+import Formulario from "@/components/Form/Formulario";
 export default {
   name: "App",
+
   components: {
-    Formulario,
-  },
+    Formulario
+  }
 };
 </script>
 
@@ -46,5 +46,15 @@ html {
 .header-wrapper {
   margin: 0 auto;
   width: 1450px;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  transform: translateX(-2em);
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 200ms ease;
 }
 </style>
