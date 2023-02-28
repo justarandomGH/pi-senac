@@ -35,7 +35,7 @@ export default {
       rgba(129, 122, 122, 0.4),
       rgba(122, 120, 120, 0.3)
     ),
-    url("https://images.unsplash.com/photo-1553969546-6f7388a7e07c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+    url("https://images.unsplash.com/photo-1553012547-284d8c582b1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
