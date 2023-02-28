@@ -2,7 +2,9 @@
   <header>
     <!-- <h2 class="senac">Senac</h2>
     <h2 class="fit">FIT</h2> -->
-    <h2>Nome</h2>
+    <span class="m">M</span>
+    <span class="y">y</span>
+    <h2>Health</h2>
     <button>
       <img src="https://cdn-icons-png.flaticon.com/512/507/507257.png" alt="" />
     </button>
@@ -37,19 +39,23 @@ button {
   left: 2rem;
 }
 
-.senac {
+.m {
   font-family: var(--font-poppins);
   font-size: 2rem;
   font-weight: 700;
-  color: var(--main-dark);
   letter-spacing: 1px;
 }
 
-.fit {
+.y {
   font-family: var(--font-lato);
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   font-weight: 700;
-  color: var(--main-orange);
   letter-spacing: 2px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
 }
 </style>
